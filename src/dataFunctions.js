@@ -5,5 +5,5 @@ export const example = () => {
 };
 
 export const anotherExample = () => {
-  return [];
+  return 'OMG';
 };
