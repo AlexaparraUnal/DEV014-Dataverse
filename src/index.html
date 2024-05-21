@@ -1,26 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Hora de aventura</title>
 </head>
+
 <body>
   <header>
     <h1> </h1>
-      <img src="https://i.pinimg.com/564x/71/9e/b3/719eb3513ec893b0a27cfb2beb18e97b.jpg" alt="adventureTime">  
-    </header>
-    <main>
-      <div id="root"></div>
-    </main>
-    <footer>
-      <img src="https://i.pinimg.com/564x/7d/2b/9f/7d2b9f998dff9c0e766e2a7caea64c4f.jpg" alt="casita">
-      <p> "© [2024] Todos los derechos reservados. Hora de Aventura y todos los personajes relacionados son propiedad de Cartoon Network Studios."</p>
-      <p>Tienes alguna pregunta?
-        contactanos: paalexandra.1994@gmail.com</p>
-      <p>"Desarrollado por Alexandra Parra para los fans de Hora de Aventura"</p>
-    </footer>
-    <script src="main.js" type="module"></script>
+    <img src="https://i.pinimg.com/564x/71/9e/b3/719eb3513ec893b0a27cfb2beb18e97b.jpg" alt="adventureTime">
+  </header>
+  <main>
+    <label for="filtrar por entidad">Especie:<select data-testid="select-filter" name="entidad">
+        <option value="Humano">humano</option>
+        <option value="Perro">perro</option>
+        <option value="Elemental de Dulce">elemental de dulce</option>
+        <option value="Vampiro">vampiro</option>
+        <option value="Persona de Espacio Grumoso">persona espacio grumoso</option>
+        <option value="Hechicero">hechicero</option>
+        <option value="Entidad mágica">entidad magica</option>
+        <option value="Elemental de Fuego">elemental de fuego</option>
+        <option value="Pingüino">pinguino</option>
+        <option value="Persona de Limón">persona de limon </option>
+        <option value="Entidad Cósmica">entidad cosmica</option>
+        <option value="Elefante">elefante</option>
+        <option value="Caramelo de Menta">caramelo de menta</option>
+        <option value="Morita">morita </option>
+        <option value="Demonio">demonio</option>
+        <option value="Hechicero">hechicero</option>
+        <option value="Entidad maligna">entidad maligna </option>
+        <option value="Unicornio-Perro">unicornio-perro</option>
+        <option value="Gusano">gusano</option>
+      </select></label>
+    <label for="ordenar por nombre ">Nombre:<select data-testid="select-sort" nombre="nombre">
+
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
+
+      </select></label>
+
+    <button type="button" id="reset-button"> Limpiar</button>
+
+    <button class="calculo" id="promedio" >Edad Promedio</button><span id="resultado"></span>
+
+    
+    <div id="root"></div>
+
+  </main>
+  <footer>
+    <img src="https://i.pinimg.com/564x/7d/2b/9f/7d2b9f998dff9c0e766e2a7caea64c4f.jpg" alt="casita">
+    <p> "© [2024] Todos los derechos reservados. Hora de Aventura y todos los personajes relacionados son propiedad de
+      Cartoon Network Studios."</p>
+    <p>Tienes alguna pregunta?
+      contactanos: paalexandra.1994@gmail.com</p>
+    <p>"Desarrollado por Alexandra Parra para los fans de Hora de Aventura"</p>
+  </footer>
+  <script src="main.js" type="module"></script>
 </body>
+
 </html>

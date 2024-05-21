@@ -1,8 +1,5 @@
 
 export const renderItems = (data) => {
-  console.log(data)
-
-
 
   const ul = document.createElement('ul');
   ul.classList.add("card-container");
@@ -17,21 +14,20 @@ export const renderItems = (data) => {
     const nombre = document.createElement('p')
     const imagen = document.createElement('img')
     const descripcion = document.createElement('p')
+    const extras = document.createElement('p')
 
-
-    nombre.innerHTML = "PERSONAJE: " + personaje.name;
+    nombre.innerHTML =  personaje.name;
     imagen.src = personaje.imageUrl;
-    imagen.innerHTML = personaje.imageUrl;
     descripcion.innerHTML = personaje.shortDescription;
-
+    extras.innerHTML = "Especie:" +personaje.facts.especie;
 
     li.appendChild(nombre)
     li.appendChild(imagen);
     li.appendChild(descripcion);
+    li.appendChild(extras);
     ul.appendChild(li);
-
+    
   });
   return ul;
-  //
-
+  
 };

@@ -138,7 +138,7 @@ export default [
     "description": "Prismo, un ser cósmico que reside en la Sala del Tiempo, tiene la capacidad de otorgar deseos a aquellos que lo encuentran. Con su naturaleza tranquila y filosófica, se deleita en participar en conversaciones profundas con sus visitantes. A pesar de su inmenso poder, Prismo es en última instancia una figura solitaria, anhelando compañía y amistad. A través de su sabiduría y comprensión del universo, Prismo busca no solo satisfacer los deseos de los demás, sino también encontrar un sentido más profundo de conexión y significado en su propia existencia cósmica.",
     "imageUrl": "https://i.pinimg.com/564x/13/e4/df/13e4df8af4eb74062b015ba0ddad3f08.jpg",
     "facts": {
-      "edad": Infinity,
+      "edad": 1000,
       "especie": "Entidad Cósmica",
       "comidaFavorita": "Café",
     }
@@ -175,7 +175,7 @@ export default [
     "imageUrl": "https://i.pinimg.com/564x/58/f3/bf/58f3bf2653af7caf2bca3492d10802b3.jpg",
     "facts": {
       "edad": 16,
-      "especie": "Humana",
+      "especie": "Humano",
       "comidaFavorita": "Tarta de manzana",
     }
   },
@@ -198,7 +198,7 @@ export default [
     "description": "Hunson Abadeer, el poderoso y siniestro régulo del Inframundo y padre de Marceline la Reina Vampiro, es conocido por su naturaleza manipuladora y astuta. Utiliza sus poderes oscuros para conseguir lo que quiere, sembrando el caos y la discordia dondequiera que va. Aunque tiende hacia la villanía, Hunson muestra una preocupación retorcida por su hija Marceline, manifestando un vínculo paternal distorsionado por su propia ambición y sed de poder. Su presencia imponente y sus maquinaciones siniestras lo convierten en un antagonista formidable y memorable en el mundo de Hora de Aventura.",
     "imageUrl": "https://i.pinimg.com/564x/77/6c/23/776c23c96dfa4636d56b2d0aac235361.jpg",
     "facts": {
-      "edad": Infinity,
+      "edad": 1000,
       "especie": "Demonio",
       "comidaFavorita": "Almas",
     }
@@ -223,7 +223,7 @@ export default [
     "imageUrl": "https://i.pinimg.com/564x/4e/58/6d/4e586d81379f733565e8a1ece4dfb354.jpg",
     "facts": {
       "edad": 8,
-      "especie": "Gato Mágico",
+      "especie": "Entidad mágica",
       "comidaFavorita": "Pescado asado",
     }
   },
@@ -247,7 +247,7 @@ export default [
     "imageUrl": "https://i.pinimg.com/564x/a8/e4/f8/a8e4f8e70e77b30ce53b11b0ad1dba4d.jpg",
     "facts": {
       "edad": 35,
-      "especie": "Pan Encantado",
+      "especie": "Entidad mágica",
       "midaFavorita": "Canela",
     }
   },
@@ -258,7 +258,7 @@ export default [
     "description": "El Lich, conocido como la personificación del mal en 'Hora de Aventura', se erige como el principal antagonista de Finn y Jake en sus épicas batallas. Encarnando una entidad oscura y antigua, sus intenciones se tejen con la más pura maldad, buscando instaurar el caos y la destrucción en la Tierra de Ooo. Con una sed insaciable de aniquilar toda forma de vida, El Lich se yergue como una sombría amenaza, cuyo poderío oscuro se extiende por los rincones más recónditos del mundo, desafiando constantemente los esfuerzos de los héroes por preservar la paz y la armonía en su reino.",
     "imageUrl": "https://i.pinimg.com/564x/28/49/8f/28498f5af8640c99c6d36079343722eb.jpg",
     "facts": {
-      "edad": "Desconocida",
+      "edad": 100,
       "especie": "Entidad maligna",
       "comidaFavorita": "Almas",
     }
@@ -282,7 +282,7 @@ export default [
     "description": "Shelby es un gusano parlante que vive aventuras en la vibrante Tierra de Ooo. A pesar de su pequeño tamaño, su espíritu intrépido y su ingenio lo convierten en un compañero valioso para Finn y Jake en sus misiones emocionantes. Siempre curioso por descubrir nuevas maravillas y desafíos, Shelby aporta una perspectiva única a cada situación, demostrando que la verdadera valentía no depende del tamaño. Con su amor por la aventura y la emoción, este simpático gusano demuestra que incluso los más pequeños pueden tener un gran impacto. ¡Únete a Shelby en sus travesuras llenas de diversión!.",
     "imageUrl": "https://i.pinimg.com/564x/8d/09/54/8d09540ab1df4c422641559862939836.jpg",
     "facts": {
-      "edad": "Desconocida",
+      "edad": 50,
       "especie": "Gusano",
       "comidaFavorita": "Hojas"
     }

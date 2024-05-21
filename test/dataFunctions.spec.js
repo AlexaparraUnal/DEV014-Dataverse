@@ -1,18 +1,37 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { sortData, filterData } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
+
 
 console.log(fakeData);
 
-describe('example', () => {
+describe('filterData', () => {
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+  it('filtro por especie', () => {
+
+    expect(filterData(fakeData, "especie", "Humano")).toEqual([{
+
+      "facts": {
+        "especie": "Humano",
+      },
+    }]);
+
   });
 });
-
-describe('anotherExample', () => {
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+describe('sortData', () => {
+  it('ordenar de manera accendente', () => {
+    expect(sortData(fakeData, "name", "asc")).toEqual([
+      {
+        "name": "Finn el Humano",
+        "facts": {
+          "especie": "Humano"
+        },
+      },
+      {
+        "name": "Pan de Canela",
+        "facts": {
+          "especie": "Entidad mágica"
+        }
+      }
+    ]);
   });
 });
